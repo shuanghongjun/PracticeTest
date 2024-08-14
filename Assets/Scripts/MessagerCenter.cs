@@ -53,3 +53,9 @@ public class MessagerCenter<T> :Singleton<MessagerCenter<T>>
         }
     }
 }
+
+public class MsgID
+{
+    public const int SendMessage = 1001;
+    public const int ReceiveMessage = 1002;
+}
